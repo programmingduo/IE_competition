@@ -20,3 +20,15 @@ code/baseline/pretrained_model
 
 首次上传项目包含数据文件，后续过程中会将 .json文件也ignore掉。
 
+# 分支
+
+建议使用自己名字新建分支。新建分支以及第一次上传命令可参考：
+
+~~~
+git branch wuduo #本地新建分支
+git checkout wuduo #本地切换分支
+echo "test" > wuduo_test_branch
+git add .
+git commit -m "wuduo test branch"
+git push --set-upstream origin wuduo #建立上游分支的跟踪并完成push。
+~~~~
