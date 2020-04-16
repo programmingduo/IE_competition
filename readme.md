@@ -4,6 +4,8 @@
 
 code文件夹中根据项目可新建文件夹。如后续使用复现的论文或模型可使用该模型的关键字信息命名文件夹。目前仅有baseline一个文件夹。
 
+data/train_data/文件夹中由于train_data.json太大，所以只上传了zip文件，需自行解压缩。
+
 # ignore 说明
 
 目前ignore的文件包括：
